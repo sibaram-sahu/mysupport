@@ -3,3 +3,8 @@ ticket mangement tool v1.0 . Technology used for backend PHP (Codeigniter)  Fron
 
 http://www.sibaspage.com/projects/support/
 
+support.sql file is the database file
+
+#username @siba
+#password $$siba
+
