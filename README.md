@@ -5,6 +5,6 @@ http://www.sibaspage.com/projects/support/
 
 support.sql file is the database file
 
-#username @siba
-#password $$siba
+# username @siba
+# password $$siba
 
