@@ -1,0 +1,122 @@
+/*the default css*/
+
+.fkavoon{font-family: 'Kavoon', cursive;}
+.fbaloo{font-family: 'Baloo Tamma', cursive;}
+/*colors*/
+.bgT{background: transparent !important;}
+.bgWhite{background-color: #fff !important;}
+.white{color: #fff !important;}
+.green{color:green !important;}
+.red{color: red !important;}
+.urgent{color: #b71c1c;}
+.high{color: #880E4F;}
+.medium{color: #006064;}
+.low{color: #33691E;}
+.urgentL{border-left:4px solid #b71c1c;}
+.highL{border-left:4px solid #0277BD;}
+.mediumL{border-left:4px solid #006064;}
+.lowL{border-left:4px solid #33691E;}
+/*padding*/
+.pad0{padding: 0px !important;}
+.pad2{padding: 2px !important;}
+.pad3{padding: 3px !important;}
+.pad5{padding: 5px !important;}
+.pad7{padding: 7px !important;}
+.pad10{padding: 10px !important;}
+.pad15{padding: 15px !important;}
+.pad20{padding: 20px !important;}
+.pad25{padding: 25px !important;}
+.pad10-0{padding: 10px 0px;}
+.pad10-5{padding: 10px 5px;}
+.pad20-0{padding: 20px 0px;}
+.pad5-0{padding: 5px 0px;}
+/*margin*/
+.mar0{margin: 0px !important;}
+.mar0T{margin-top: 0px !important;}
+.mar2{margin: 2px !important;}
+.mar5{margin: 5px !important;}
+.mar0auto{margin: 0px auto;}
+.mar-100T{margin-top: -100px !important;}
+
+/*border*/
+.bod0{border: 0px solid transparent !important;}
+
+/*radius*/
+.bor_rad0{border-radius: 0px !important;}
+
+
+/*nav-bar*/
+.navbar-brand{padding: 12px 15px;}
+.nav-bar-transparent{
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.nav-bar-transparent .navbar-nav > .active > a,
+.nav-bar-transparent .navbar-nav > .active > a:hover,
+.nav-bar-transparent .navbar-nav > .active > a:focus {
+      border-bottom:2px solid #ffffff;
+      background-color: transparent;
+}
+.nav-bar-transparent .navbar-nav > li > a:hover,
+.nav-bar-transparent .navbar-nav > li > a:focus {
+    color: #DDD;
+    background-color: transparent;
+}
+.nav-bar-transparent .navbar-nav > .open > a,
+.nav-bar-transparent .navbar-nav > .open > a:hover,
+.nav-bar-transparent .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/*cursor*/
+.pointer{cursor: pointer;}
+
+/*badges*/
+.badge-br{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/*banner*/
+.banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 350px;
+  width: 100%;
+  background-color: #3e152b;
+}
+
+/*box shadow*/
+.sh1{ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.sh2{ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+.sh3{ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+.sh4{ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+.sh5{ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);}
+/*search card*/
+.search-card{
+  padding: 10px;
+  background-color: #fff;
+  height: 150px;
+  width: 100%;
+}
+/*letter spacing*/
+.ltrSpc2{
+  letter-spacing: 2px;
+}
+/*positon*/
+.relative{position: relative;}
+.top-right{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.top-right-msg{
+  position: absolute;
+  top: 10px;
+  right:10px;
+  z-index: 9999;
+  min-width: 300px;
+}
